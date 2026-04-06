@@ -399,8 +399,9 @@ if __name__ == "__main__":
     print("-" * 40)
 
     test_images = [
-        ("Alice (connue)", os.path.join(TEST_DIR, "test_alice.jpg")),
-        ("Inconnu", os.path.join(TEST_DIR, "test_unknown.jpg")),
+        ("Messi (connu)", os.path.join(TEST_DIR, "test_messi.jpg")),
+        ("Ronaldo (connu)", os.path.join(TEST_DIR, "test_ronaldo.jpg")),
+        ("Haaland (inconnu)", os.path.join(TEST_DIR, "test_unknown.jpg")),
     ]
 
     threshold = 3000
